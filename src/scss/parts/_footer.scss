@@ -1,0 +1,12 @@
+.footer {
+    padding: 40px;
+    font-size: 25px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+
+}
+
+@media all and (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+}

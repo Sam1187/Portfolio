@@ -1,0 +1,48 @@
+.hero {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__photo,
+    &__desc {
+        width: 50%;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .hero {
+        padding-top: 0;
+
+        &__main {
+            display: block;
+        }
+
+        &__photo,
+        &__desc {
+            width: 90%;
+        }
+
+        &__desc {
+            align-items: center;
+        }
+    }
+}

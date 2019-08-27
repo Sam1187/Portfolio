@@ -1,0 +1,21 @@
+#ouibounce-modal .modal {
+
+    &-title {
+        padding: 20px 50px;
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    #ouibounce-modal .modal {
+        width: 100%;
+        height: 100%;
+
+        &-body {
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.contact {
+    margin-bottom: 30px;
+    padding: 20px;
+
+    &__desc {
+
+        a {
+            color: $font-color-main;
+            text-decoration: none;
+
+            &:hover {
+                color: $font-color-icon;
+                transition: all 0.5s;
+            }
+        }
+
+        i {
+            color: $font-color-icon;
+
+            &:hover {
+                color: $font-color-main;
+                transition: all 0.5s;
+            }
+        }
+    }
+
+    &__title,
+    &__phone,
+    &__mail {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-weight: 700;
+    }
+
+
+}
+
+@media all and (max-width: 990px) {
+    .contact {
+
+        &__number span {
+            display: inline-block;
+        }
+    }
+}

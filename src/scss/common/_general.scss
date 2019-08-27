@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: $font-main;
+    font-size: $font-size-main;
+    color: $font-color-main;
+}
+
+@media all and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+}
