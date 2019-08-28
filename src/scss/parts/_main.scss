@@ -4,6 +4,13 @@
     &__tabs {
         margin-bottom: 30px;
     }
+
+    &__list {
+
+        li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
 }
 
 .gallery {
